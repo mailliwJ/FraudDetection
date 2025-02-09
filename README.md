@@ -16,7 +16,7 @@ The dataset is sourced from **credit card transactions**, where the goal is to *
 ### 1. Exploratory Data Analysis (EDA)
 - Visualized class distributions and feature distributions using **histograms, KDE plots and boxplots**.
 - Identified potential feature separability between fraudulent and non-fraudulent transactions.
-- Trialed a *"from scratch"* threshold based feature selection function
+- Trialed a *"from scratch"* threshold based feature selection function.
 
 ### 2. Handling Class Imbalance
 To improve classification performance, several **sampling techniques** were applied:
@@ -46,6 +46,10 @@ To improve classification performance, several **sampling techniques** were appl
 - **Hybrid methods like SMOTEENN and SMOTETomek** significantly improved recall without sacrificing precision.
 - **XGBoost performed best**, achieving a good balance between precision and recall after tuning.
 
+## References & Sources
+- [Combining Over-Sampling and Under-Sampling](https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/)
+- [Using Statistics to Identify Outliers](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
+- [Under-Sampling Algorithms for Imbalanced Classification](https://machinelearningmastery.com/undersampling-algorithms-for-imbalanced-classification/)
 
 ## Future Improvements
 - **Feature Engineering:** Explore additional derived features.
@@ -54,3 +58,4 @@ To improve classification performance, several **sampling techniques** were appl
 
 ## License
 This project is licensed under the MIT License.
+
