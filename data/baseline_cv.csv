@@ -1,0 +1,4 @@
+Model,Fit Time,Recall,Precision,F1 Score,PR-AUC,ROC-AUC,True Negative,False Positive,False Negative,True Positive
+Logistic Regression,0.93,0.6,0.85,0.7,0.51,0.8,198242,35,133,198
+Random Forest,342.67,0.79,0.94,0.86,0.74,0.9,198259,18,69,262
+XGBoost,2.96,0.78,0.94,0.85,0.74,0.89,198260,17,72,259
