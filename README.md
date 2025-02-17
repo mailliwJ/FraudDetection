@@ -50,10 +50,12 @@ To improve classification performance, several **sampling techniques** were appl
 - [Combining Over-Sampling and Under-Sampling](https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/)
 - [Using Statistics to Identify Outliers](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
 - [Under-Sampling Algorithms for Imbalanced Classification](https://machinelearningmastery.com/undersampling-algorithms-for-imbalanced-classification/)
+- [Calibrating Machine Learning Models. What, Why and How?](https://filament.ai/resources/calibrating-machine-learning-models-what-why-and-how/)
+- [Optimizing Neural Networks for Imbalanced Data](https://www.mdpi.com/2079-9292/12/12/2674)
 
 ## Future Improvements
 - **Feature Engineering:** Explore additional derived features.
-- **Deep Learning Models:** Test LSTM/Autoencoders for anomaly detection.
+- **NearMiss:** Try NearMiss algorithms for resampling.
 - **Deployment:** Convert the model into an API for real-time fraud detection.
 
 ## License

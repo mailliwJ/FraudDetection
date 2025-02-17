@@ -1,0 +1,25 @@
+Model,Sampling,Fit Time,Recall,Precision,F1 Score,PR-AUC,ROC-AUC,True Negative,False Positive,False Negative,True Positive
+Logistic Regression,Baseline,0.6,0.6,0.85,0.7,0.51,0.8,198242,35,133,198
+Logistic Regression,Random Under Sampling,0.22,0.89,0.12,0.22,0.11,0.94,196155,2122,36,295
+Logistic Regression,SMOTE,0.9,0.89,0.18,0.3,0.16,0.94,196919,1358,38,293
+Logistic Regression,SMOTE + RUS,1.13,0.88,0.18,0.29,0.16,0.94,196904,1373,39,292
+Logistic Regression,SMOTEENN,200.64,0.87,0.25,0.39,0.22,0.93,197383,894,42,289
+Logistic Regression,SMOTETomek,102.44,0.87,0.25,0.39,0.22,0.93,197383,894,42,289
+Multi Layer Perceptron,Baseline,150.87,0.75,0.85,0.8,0.64,0.88,198232,45,71,260
+Multi Layer Perceptron,Random Under Sampling,8.51,0.82,0.61,0.69,0.5,0.91,198181,96,76,255
+Multi Layer Perceptron,SMOTE,654.8,0.83,0.72,0.76,0.59,0.92,198187,90,58,273
+Multi Layer Perceptron,SMOTE + RUS,290.9,0.82,0.68,0.74,0.56,0.91,198114,163,57,274
+Multi Layer Perceptron,SMOTEENN,1039.95,0.8,0.85,0.82,0.68,0.9,198210,67,62,269
+Multi Layer Perceptron,SMOTETomek,688.0,0.83,0.77,0.79,0.64,0.91,198230,47,60,271
+Random Forest,Baseline,183.01,0.79,0.94,0.86,0.74,0.9,198259,18,69,262
+Random Forest,Random Under Sampling,0.81,0.87,0.24,0.37,0.21,0.93,197314,963,42,289
+Random Forest,SMOTE,210.61,0.82,0.89,0.85,0.73,0.91,198242,35,59,272
+Random Forest,SMOTE + RUS,146.37,0.82,0.86,0.84,0.7,0.91,198232,45,60,271
+Random Forest,SMOTEENN,375.75,0.82,0.9,0.86,0.74,0.91,198245,32,58,273
+Random Forest,SMOTETomek,285.3,0.82,0.9,0.86,0.74,0.91,198245,32,58,273
+XGBoost,Baseline,2.07,0.78,0.94,0.85,0.74,0.89,198260,17,72,259
+XGBoost,Random Under Sampling,0.33,0.89,0.15,0.26,0.14,0.94,196568,1709,37,294
+XGBoost,SMOTE,6.03,0.83,0.82,0.82,0.68,0.92,198216,61,56,275
+XGBoost,SMOTE + RUS,2.87,0.84,0.8,0.81,0.67,0.92,198205,72,54,277
+XGBoost,SMOTEENN,155.41,0.82,0.83,0.82,0.68,0.91,198220,57,58,273
+XGBoost,SMOTETomek,104.18,0.82,0.83,0.82,0.68,0.91,198220,57,58,273
